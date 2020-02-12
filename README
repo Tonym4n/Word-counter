@@ -9,8 +9,8 @@ Words should be whitespace delimited. The output will be formatted such that eac
 (e.g. diDn'T will become didnt).
 
 sample usage:
-tonym4n@LAPTOP-USFBJO05:~/documents/c++Practice$ ./wordcounts 60 5 10 sample.txt
-didnt: 4
-newline: 1
-there: 1
-witch: 1
+tonym4n@LAPTOP-USFBJO05:~/documents/c++Practice$ ./wordcounts 60 5 10 sample.txt sample.txt
+didnt: 8
+newline: 2
+there: 2
+witch: 2
