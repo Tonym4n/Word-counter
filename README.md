@@ -1,2 +1,15 @@
 # Word-counter
 Simple word counting program written in c++.
+To be compiled via the command line with the usage: ./wordcounts MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE...
+  where MAX_N_OUT specifies the maximum number of words to be outputted
+  MIN_WORD_LEN specifies the minimum length of each word outputted
+  MAX_WORD_LEN specifies the maximum length of each word outputted
+  FILE... specifies one or more text files containing words
+Words should be whitespace delimited. The output will be formatted such that each word is in lowercase and contains only letters (e.g. diDn'T will become didnt).
+
+sample usage:
+tonym4n@LAPTOP-USFBJO05:~/documents/c++Practice$ ./wordcounts 60 5 10 sample.txt
+didnt: 4
+newline: 1
+there: 1
+witch: 1
